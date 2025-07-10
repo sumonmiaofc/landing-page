@@ -21,6 +21,7 @@
 
 main{
     background-color: #f5f8ff;
+    max-width: 1140;
 }
 
 
@@ -31,6 +32,7 @@ main{
     padding: 12px 36px;
     border-radius: 10px;
     background-color: #4E47FF;
+    border: none;
     
 }
 
@@ -196,4 +198,57 @@ header button a{
     font-size: 16px;
     font-weight: 400;
 
+}
+
+.cta-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-content h3{
+    font-size: 98px;
+    /* max-width: 400px; */
+}
+
+/* .cta-content form{
+    max-width: 497px;
+} */
+
+.cta-content form label{
+    font-size: 18px;
+
+}
+.cta-content form input{
+    height: 70px;
+    width: 100%;
+}
+
+/* footer css start here */
+
+.main-footer{
+    text-align: center;
+    padding: 104px 400px;
+}
+
+.main-footer h1{
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.main-footer p{
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.main-footer ul li{
+    list-style: none;
+}
+.main-footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.main-footer ul{
+    display: flex;
 }

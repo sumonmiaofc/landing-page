@@ -1,0 +1,111 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0 auto;
+    max-width: 1440;
+}
+
+
+
+/* Shared css */
+
+.global-btn{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    
+}
+
+/* header css start here */
+
+.header{
+    background-image: url(Assets/Hero-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+
+header button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.hero-info{
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 200px 100px 200px
+}
+
+.hero-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+/* Header css end here */
+
+/* action section css start here */
+.action{
+    display: flex;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    align-items: center;
+}
+
+.action-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.action-desc{
+    color: #252432;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.action .global-btn a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.action-img{
+    border-radius: 48px;
+}
+
+.action-info{
+    max-width: 517px;
+}
+/* Action section end here */
+
+/* User section css start here */
+
+.user-title{
+    font-size: 38px;
+    color: #252432;
+    font-weight: 700;
+}

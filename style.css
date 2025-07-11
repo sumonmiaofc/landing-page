@@ -152,14 +152,38 @@ header button a{
     border-radius: 14px;
     padding: 24px;
 }
-.client-desc{
-    display: flex;
-    justify-content: start;
-    /* align-items: center; */
-    flex-direction: column;
+.client-details img{
+    float: left;
+    border-radius: 50%;
+    padding-right: 6px;
+    
 }
 
 
+.client-desc h5{
+    color: #757575;
+    margin-top: 10px !important;
+}
+
+.client-desc p{
+    color: #b3b3b3 !important;
+}
+
+.card h4{
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #1e1e1e;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    margin-bottom: 24px;
+}
 
 /* Testimonial Css End Here */
 
